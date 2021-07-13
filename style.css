@@ -1,0 +1,92 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    background-image: url(com.png);
+    background-size: cover;
+}
+.cal{
+    border:0px solid black;
+    width: 300px;
+    height: 430px;
+    margin: 0% auto;
+    margin-top: 70px;
+    background-color:#C3E2FF;
+    opacity: 0.9;
+    border-radius: 20px;
+    box-shadow: -6px -6px 9px #fff, 6px 6px 9px rgba(#000,0.4);
+}
+.cal-1{
+    display: flex;
+    position: relative;
+    padding: 15px;
+}
+.inpAff 
+{
+    border: 0px;
+    box-shadow: 0 2px 2px 0;
+    outline: 0px;
+    width:260px;
+    height:45px;
+    border-radius:25px;
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+} 
+.cal-2{
+    text-align: center;
+}
+button{
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn{
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 2px 2px 0;
+    border: 0px;
+    outline: 0cm;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin:5px;
+}  
+.btn-Eq{
+    background-color:#FF6575 ;
+}
+.btn-son{
+    background-color: #9B6CE3;
+}
+.btn-sum{
+    background-color:#F52FEF ;
+}
+.btn-sous{
+    background-color: #F3FF65;
+}
+.btn-div{
+    background-color: #5b8854;
+}
+.btn-mult{
+    background-color:#28E9EC ;
+}
+.btn-c{
+    background-color: #495FFF;
+}
+.btn-ce{
+    background-color:#ffbf0e ;
+}
+.btn-sqrt{
+    background-color:#33ffd6;
+}
+.btn-back{
+    background-color:#7aff7a;
+}
+.par{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+p{
+    color:red;
+    background-color: black;
+}

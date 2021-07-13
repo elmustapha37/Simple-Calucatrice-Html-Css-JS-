@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatres</title>
+    <link rel="stylesheet" href="style.css">
+    <Script src="https://code.jquery.com/jquery-3.6.0.min.js"></Script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="par">
+        <p>A simple calculator using <b>HTML</b> & <b>CSS</b> & <b>JS</b></p>
+    </div>
+    <div class="cal">
+        <div class="cal-1">
+            <form>
+                <input type="text" class="inpAff" id="textView">
+            </form>
+        </div>
+        <div class="cal-2">
+            <button class="btn btn-sqrt" onclick="sqrtNbr()">&#x221A</button>
+            <button class="btn btn-c"  onclick="powNbr()">x²</button>
+            <button class="btn btn-back" onclick="backNbr()"><i class="fas fa-backspace"></i></button>
+            <button class="btn btn-sum" onclick="insertOp('+')">&#x2b</button>
+        </div>
+        <div class="cal-2">
+            <button class="btn" value="7" onclick="insertNbr(7)">7</button>
+            <button class="btn" value="8" onclick="insertNbr(8)">8</button>
+            <button class="btn" value="9" onclick="insertNbr(9)">9</button>
+            <button class="btn btn-div" onclick="insertOp('/')" value="&#xf7">&#xf7</button>
+        </div>
+        <div class="cal-2">
+            <button class="btn" value="4" onclick="insertNbr(4)">4</button>
+            <button class="btn" value="5" onclick="insertNbr(5)">5</button>
+            <button class="btn" value="6" onclick="insertNbr(6)">6</button>
+            <button class="btn btn-sous" onclick="insertOp('-')" value="-">-</button>
+        </div>
+        <div class="cal-2">
+            <button class="btn" value="1" onclick="insertNbr(1)">1</button>
+            <button class="btn" value="2" onclick="insertNbr(2)">2</button>
+            <button class="btn" value="3" onclick="insertNbr(3)">3</button>
+            <button class="btn btn-mult" onclick="insertOp('*')" value="*">*</button>
+        </div>
+        <div class="cal-2">
+            <button class="btn btn-ce" id="Clear">C</button>
+            <button class="btn" value="0" onclick="insertNbr(0)">0</button>
+            <button class="btn btn-son" onclick="insertDec()">.</button>
+            <button class="btn btn-Eq" onclick="equalToNbr()">=</button>
+        </div>
+    </div>
+    <script src="calcul.js"></script>
+    <!--
+    <script>
+        var slider=document.getElementById("side");
+        var image =[
+            "KFila.jpg",
+            "KLSDark.jpg",
+            "filavintage.jpg"
+        ];
+        var n = 0;
+        function next(){
+            n++;
+            if(n>=image.length){
+                n=0;
+            }
+            slider.src=image[n]
+        }
+        function prev(){
+            n--;
+            if(n<0){
+                n=image.length-1;
+            }
+            slider.src=image[n]
+        }
+    </script>-->
+</body>
+</html>
